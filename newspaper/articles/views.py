@@ -7,11 +7,11 @@ from django.urls import reverse_lazy
 
 class ArticleListView(ListView):
     model = Article
-    template_name = "articles/home.html"
+    template_name = "articles/list.html"
 
 class  DetailListView(DetailView):
     model = Article
-    template_name = "article_detail.html"
+    template_name = "articles/article_detail.html"
 
 class UpdateListView(UpdateView):
     model = Article
