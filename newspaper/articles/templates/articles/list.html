@@ -1,15 +1,16 @@
 {% extends 'articles/home.html' %}
-{% loadstatic %}
+{% load static %}
 
 {% block title %}Articles{% endblock title %}
-
+<link href="{% static 'articles/home.css' %}" rel="stylesheet">
 {% block body %}
 <div class="news">
     <h2>Newspaper</h2>
 </div>
 {% for article in object_list %}
+<div class="all">
 <div class="clas">
-    <span>{{article.title}}</span>
+    <span class="elsi">{{article.title}}</span>
     <span>by {{article.author}} | {{article.date}}</span>
 </div>
 <div class="body">
@@ -17,6 +18,7 @@
 </div>
 <div class="a">
     <a href="#">Edit</a> | <a href="#">Delete</a>
+</div>
 </div>
 {% endfor %}
 {% endblock %}

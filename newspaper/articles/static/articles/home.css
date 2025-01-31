@@ -1,0 +1,40 @@
+.news{
+    background-color: black;
+    color: aliceblue;
+    width: auto;
+    height: 50px;
+
+}
+
+h2{
+    padding: 10px;
+}
+
+elsi{
+    background-color: ghostwhite;
+}
+.clas{
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.body{
+    border: 1px solid black;
+    height: 20px;
+    padding: 20px;
+}
+
+.a{
+    text-align: center;
+    border: 1px solid black;
+    background-color: ghostwhite;
+    height: 20px;
+    padding: 20px;
+}
+
+.all{
+    margin-bottom: 50px;
+    width: 1500px;
+    padding: 5px;
+}
+
