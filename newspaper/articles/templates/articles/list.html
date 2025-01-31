@@ -3,4 +3,8 @@
 {% block title %}Articles{% endblock title %}
 
 {% block body %}
+<div class="clas">
+    {% for articles in object_list %}
+    <h2>{{article.title}}</h2>
+    <p>{{article.author}} | {{article.date}}</p>
 {% endblock %}
