@@ -7,4 +7,10 @@
     {% for articles in object_list %}
     <h2>{{article.title}}</h2>
     <p>{{article.author}} | {{article.date}}</p>
+</div>
+<div class="body">
+    {{article.body}}
+    <a href="#">Edit</a>
+    <a href="#">Delete</a>
+</div>
 {% endblock %}
