@@ -1,4 +1,5 @@
 {% extends 'articles/home.html' %}
+{% loadstatic %}
 
 {% block title %}Articles{% endblock title %}
 
@@ -15,7 +16,7 @@
     {{article.body}}
 </div>
 <div class="a">
-    <a href="#">Edit</a> |     <a href="#">Delete</a>
+    <a href="#">Edit</a> | <a href="#">Delete</a>
 </div>
 {% endfor %}
 {% endblock %}
