@@ -15,11 +15,11 @@
 {% for article in object_list %}
 <div class="all">
 <div class="clas">
-    <span class="elsi">{{article.title}}</span>
-    <span>by {{article.author}} | {{article.date}}</span>
     <div class="image">
         <img src="{{article.image.url}}">
     </div>
+    <span class="elsi">{{article.title}}</span>
+    <span>by {{article.author}} | {{article.date}}</span>
 </div>
 <div class="body">
     {{article.body}}

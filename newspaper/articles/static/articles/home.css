@@ -18,14 +18,3 @@
 }
 
 
-.a{
-    border-bottom: 2px solid black;
-    width: 300px;
-    padding-bottom: 10px;
-}
-
-.image{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
