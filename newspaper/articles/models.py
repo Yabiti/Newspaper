@@ -8,7 +8,7 @@ from django.urls import reverse
 class Article(models.Model):
     title = models.CharField(max_length=150)
     body = models.TextField()
-    image = models.ImageField(upload_to='images/')
+    image = models.ImageField(upload_to='images/', default='images/default.jpg')
     date = models.DateTimeField(auto_now_add=True)
     author = models.ForeignKey(
         get_user_model(),
