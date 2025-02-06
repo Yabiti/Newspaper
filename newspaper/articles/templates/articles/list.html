@@ -12,12 +12,12 @@
     <h4>Sport</h4>
     <h4>Fashion</h4>
 </div>
+<div class="head">
+    <h1>The Independent Voice</h1>
+</div>
 {% for article in object_list %}
 <div class="all">
-<div class="clas">
-    <div class="image">
-        <img src="{{article.image.url}}">
-    </div>
+    <div class="clas">
     <span class="elsi">{{article.title}}</span>
     <span>by {{article.author}} | {{article.date}}</span>
 </div>
