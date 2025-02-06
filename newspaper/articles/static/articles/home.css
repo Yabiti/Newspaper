@@ -18,10 +18,11 @@
     font-weight: bold;
 }
 
-img{
-    height: 300px;
-}
 
 .head{
     text-align: center;
+}
+
+.im{
+    width: 750px;
 }
