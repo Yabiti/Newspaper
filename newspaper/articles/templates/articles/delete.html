@@ -2,8 +2,8 @@
 {% load static %}
 <link href="{% static 'articles/home.css' %}" rel="stylesheet">
 {% block body %}
-<h1>Delete</h1>
 <div class="delete">
+<h1>Delete</h1>
     <form action="" method="post">{% csrf_token %}
         <p>Are you sure you want to delete "{{ article.title }}"?</p>
         <button class="update-buttonn" type="submit">Confirm</button>

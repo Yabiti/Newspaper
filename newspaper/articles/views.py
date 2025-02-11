@@ -1,9 +1,12 @@
 from django.shortcuts import render
 from .models import Article
-from django.views.generic import ListView, DetailView
+from django.views.generic import ListView, DetailView, TemplateView
 from django.views.generic.edit import DeleteView, UpdateView
 from django.urls import reverse_lazy
 # Create your views here.
+
+class HomePageView(TemplateView):
+    template_name = 'home.html'
 
 class ArticleListView(ListView):
     model = Article
