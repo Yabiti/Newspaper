@@ -1,7 +1,9 @@
 {% extends 'articles/home.html' %}
-
+{% load static %}
 {% block title %}Home{% endblock title %}
-{% block content %}
+<link href="{% static 'articles/home.css' %}" rel="stylesheet">
+
+{% block body %}
 <br/>
 <div class="jumbotron">
     <h1 class="display-4">Newspaper app</h1>
@@ -10,4 +12,4 @@
     <a href="{% url 'list' %}"role="button">View All Articles</a>
     </p>
 </div>
-{% endblock content %}
+{% endblock %}
