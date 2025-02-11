@@ -6,7 +6,7 @@ from django.urls import reverse_lazy
 # Create your views here.
 
 class HomePageView(TemplateView):
-    template_name = 'home.html'
+    template_name = 'articles/hom.html'
 
 class ArticleListView(ListView):
     model = Article
