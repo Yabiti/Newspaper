@@ -42,3 +42,19 @@
     padding-left: 10px;
 
 }
+
+/* CSS for the update button */
+.update-button {
+    background-color: #28a745; /* Green background color */
+    color: white; /* White text color */
+    border: none; /* Remove default border */
+    padding: 10px 20px; /* Padding for button */
+    border-radius: 5px; /* Slightly rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.update-button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
