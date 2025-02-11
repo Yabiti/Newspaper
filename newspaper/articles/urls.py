@@ -5,10 +5,12 @@ from django.conf.urls.static import static
 from .views import( ArticleListView,
                     DetailListView,
                     DeleteListView,
-                    UpdateListView
+                    UpdateListView,
+                    HomePageView
 )
 
 urlpatterns = [
+        path('', HomePageView.as_view(), name='home'),
     path("<int:pk>/edit/", UpdateListView.as_view(), name="edit"),
     path("<int:pk>/", DetailListView.as_view(), name="detail"),
     path("<int:pk>/delete/", DeleteListView.as_view(), name="delete"),
