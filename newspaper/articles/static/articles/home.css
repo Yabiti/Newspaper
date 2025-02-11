@@ -66,16 +66,21 @@
 
 
 .update-buttonn {
-    background-color:red; /* Green background color */
-    color: white; /* White text color */
-    border: none; /* Remove default border */
-    padding: 10px 20px; /* Padding for button */
-    border-radius: 5px; /* Slightly rounded corners */
-    cursor: pointer; /* Pointer cursor on hover */
-    font-size: 16px; /* Font size */
-    transition: background-color 0.3s ease; /* Smooth background color transition */
+    background-color:red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; 
+    transition: background-color 0.3s ease;
 }
 
 .update-buttonn:hover {
-    background-color:red; /* Darker green on hover */
+    background-color:red;
+}
+
+
+.delete{
+    padding: 30px;
 }

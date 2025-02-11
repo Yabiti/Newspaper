@@ -1,8 +1,8 @@
 {% extends 'articles/home.html' %}
 {% load static %}
-
+<link href="{% static 'articles/home.css' %}" rel="stylesheet">
 {% block body %}
-<div class="article-entry">
+<div class="delete">
     <h2>{{ object.title }}</h2>
     <p>by {{ object.author }} | {{ object.date }}</p>
     <p>{{ object.body }}</p>
