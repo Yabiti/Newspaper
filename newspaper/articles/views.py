@@ -16,7 +16,9 @@ class  DetailListView(DetailView):
 class UpdateListView(UpdateView):
     model = Article
     fields = ('title', 'body')
-    template_name = "article_edit.html"
+    template_name = "articles/edit.html"
+    success_url = reverse_lazy('home')
+
 class DeleteListView(DeleteView):
     model = Article
     template_name = "article_delete.html"
