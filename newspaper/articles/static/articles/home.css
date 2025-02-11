@@ -7,31 +7,24 @@
     height: 50px;
 }
 
-.head{
-    text-align: center;
+.all {
+    padding: 10px;
 }
 
-.all{
-    margin: 50px;
-    padding-left: 50px;
+.box {
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
-.elsi{
+.clas, .body, .a {
+    margin-bottom: 10px;
+}
+
+.elsi {
     font-weight: bold;
 }
 
-.clas{
-    margin-bottom: 10px;
-    border: 1px solid black;
-    height: 30px;
-}
-
-.body{
-    border: 1px solid black;
-    height: 30px;
-}
-
-.a{
-    text-align: center;
-    padding-bottom: 50px;
-}
+  
