@@ -63,3 +63,19 @@
     padding: 50px;
     text-align: center;
 }
+
+
+.update-buttonn {
+    background-color:red; /* Green background color */
+    color: white; /* White text color */
+    border: none; /* Remove default border */
+    padding: 10px 20px; /* Padding for button */
+    border-radius: 5px; /* Slightly rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.update-buttonn:hover {
+    background-color:red; /* Darker green on hover */
+}
