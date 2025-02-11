@@ -10,7 +10,7 @@ from .views import( ArticleListView,
 )
 
 urlpatterns = [
-        path('', HomePageView.as_view(), name='home'),
+    path('', HomePageView.as_view(), name='hom'),
     path("<int:pk>/edit/", UpdateListView.as_view(), name="edit"),
     path("<int:pk>/", DetailListView.as_view(), name="detail"),
     path("<int:pk>/delete/", DeleteListView.as_view(), name="delete"),
