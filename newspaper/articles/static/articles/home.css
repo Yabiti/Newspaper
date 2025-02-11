@@ -7,5 +7,38 @@
     height: 50px;
 }
 
+.head{
+    text-align: center;
+}
 
-  
+.all{
+    padding-left: 300px;
+    margin: 50px;
+}
+
+.elsi{
+    font-weight: bold;
+}
+
+.clas{
+    border: 1px solid black;
+    width: 700px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+.body{
+    border: 1px solid black;
+    width: 700px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+.a{
+    text-align: center;
+    border: 1px solid black;
+    width: 700px;
+    height: 40px;
+    padding-left: 10px;
+
+}
