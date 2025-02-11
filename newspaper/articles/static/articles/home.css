@@ -7,24 +7,5 @@
     height: 50px;
 }
 
-.all {
-    padding: 10px;
-}
-
-.box {
-    border: 1px solid black;
-    padding: 10px;
-    margin-bottom: 10px;
-    display: flex;
-    flex-direction: column;
-}
-
-.clas, .body, .a {
-    margin-bottom: 10px;
-}
-
-.elsi {
-    font-weight: bold;
-}
 
   
