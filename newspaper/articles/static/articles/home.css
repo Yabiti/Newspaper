@@ -89,13 +89,13 @@
 .jum{
     padding: 70px;
     margin-left: 120px;
-    border: 1px solid black;
+    border: 1px solid lightgray;
     width: 700px;
     background-color: lightgray;
 }
 
 .f{
     background-color: blue;
-    width: 500px;
-    height: 100px;
+    padding: 10px;
+    color: aliceblue;
 }
