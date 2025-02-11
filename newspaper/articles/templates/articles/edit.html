@@ -1,0 +1,12 @@
+{% extends 'articles/home.html' %}
+
+{% load static %}
+
+{% block body %}
+<h1>Edit</h1>
+<from action="" method="post">
+    {% csrf_token %}
+    {{form.as_p}}
+    <button type="submit">Update</button>
+</from>
+{% endblock %}
