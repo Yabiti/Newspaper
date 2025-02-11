@@ -87,5 +87,9 @@
 }
 
 .jum{
-    padding: 50px;
+    padding: 70px;
+    margin-left: 120px;
+    border: 1px solid black;
+    width: 700px;
+    background-color: lightgray;
 }
