@@ -11,13 +11,12 @@ class ArticleListView(ListView):
 
 class  DetailListView(DetailView):
     model = Article
-    template_name = "articles/article_detail.html"
+    template_name = "articles/detail.html"
 
 class UpdateListView(UpdateView):
     model = Article
     fields = ('title', 'body')
     template_name = "articles/edit.html"
-    success_url = reverse_lazy('home')
 
 class DeleteListView(DeleteView):
     model = Article

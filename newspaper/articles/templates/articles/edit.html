@@ -5,9 +5,9 @@
 <link href="{% static 'articles/home.css' %}" rel="stylesheet">
 {% block body %}
 <h1>Edit</h1>
-<from action="" method="post">
+<form action="" method="post">
     {% csrf_token %}
     {{form.as_p}}
     <button class="update-button" type="submit">Update</button>
-</from>
+</form>
 {% endblock %}
