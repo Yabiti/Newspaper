@@ -1,7 +1,3 @@
-body{
-    background-image: url(bk.png);
-}
-
 .news{
     display: flex;
     gap: 50px;
