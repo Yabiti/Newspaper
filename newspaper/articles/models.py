@@ -23,3 +23,4 @@ class Article(models.Model):
 
 class Comment(models.Model):
     article = models.ForeignKey(Article, on_delete=models.CASCADE)
+    comment = models.CharField(max_length=300)
