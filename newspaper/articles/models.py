@@ -22,4 +22,4 @@ class Article(models.Model):
 
 
 class Comment(models.Model):
-    Article = 
+    article = models.ForeignKey(Article, on_delete=models.CASCADE)
