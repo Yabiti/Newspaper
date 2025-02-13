@@ -8,3 +8,7 @@ admin.site.register(Comment)
 class CommentInLine(admin.StackedInline):
     model = Comment
 
+class ArticleAdmin(admin.ModelAdmin):
+    inlines = [
+        CommentInLine
+    ]
