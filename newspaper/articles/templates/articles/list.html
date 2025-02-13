@@ -19,6 +19,11 @@
 </div>
 <div class="comment">
     {% for comment in articles.comments.all %}
+    <p>
+        <span>
+            {{comment.author}}
+        </span>
+    </p>
 </div>
 </div>
 {% endfor %}
