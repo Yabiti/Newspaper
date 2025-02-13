@@ -4,7 +4,7 @@ from .models import Article, Comment
 
 
 
-class CommentInLine(admin.StackedInline):
+class CommentInLine(admin.TabularInline):
     model = Comment
 
 class ArticleAdmin(admin.ModelAdmin):
