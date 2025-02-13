@@ -17,6 +17,9 @@
     <a href="{% url 'edit' article.pk %}">Edit</a> |
     <a href="#">Delete</a>
 </div>
+<div class="comment">
+    {% for comment in articles.comments.all %}
+</div>
 </div>
 {% endfor %}
 {% endblock %}
