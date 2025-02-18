@@ -1,6 +1,7 @@
 from django.test import SimpleTestCase, TestCase
 from .models import Article
 # Create your tests here.
-class ArticleModelTestCase(TestCase):
+
+class ArticleModelTest(TestCase):
     def setUp(self):
-        return super().setUp()
+        Article.objects.create(text="just a test")
