@@ -1,12 +1,9 @@
-from django.test import SimpleTestCase, TestCase
+from django.test import TestCase
 from .models import Article
-# Create your tests here.
-
-class ArticleModelTest(TestCase):
+class PostModelTest(TestCase):
     def setUp(self):
-        Article.objects.create(text="just a test")
-    
-    def test_text_context(self):
-        post = Article.objects.get(id=1)
+        Article.objects.create(text='just a test')
+    def test_text_content(self):
+        post=Article.objects.get(id=1)
         expected_object_name = f'{post.text}'
         self.assertEqual(expected_object_name, 'just a test')
