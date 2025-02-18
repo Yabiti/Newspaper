@@ -7,3 +7,5 @@ class HomePageViewTest(TestCase):
         Article.objects.create(text="another test")
     
     def test_view_url_exist_at_proper_location(self):
+        resp = self.client.get("/")
+        self.assertEqual(resp.status_code, 200)
